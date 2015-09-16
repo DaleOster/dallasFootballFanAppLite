@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id     	    = "com.osteritsolutions.dallasfootballfanapplite"
+        versionCode = "1"
+		version     = "1.0.0">
+
+	<name>Dallas Football Fan App Lite</name>
+
+	<description>
+        This app has the latest news and regular season schedule of the Dallas Cowboys.
+   	</description>
+
+	<author href="http://osteritsolutions.com"
+        email="support@osteritsolutions.com">
+        Oster IT Solutions
+        </author>
+
+	<icon src="media/icon.png" />
+	
+	<preference name="permissions" value="none" />
+
+	<gap:splash src="media/splashscreen-320x200.png" gap:platform="android" gap:density="ldpi" gap:qualifier="land-ldpi" width="320" height="200" /> 
+ 
+ 	<gap:splash src="media/splashscreen-480x320.png" gap:platform="android" gap:density="mdpi" gap:qualifier="land-mdpi" width="480" height="320" /> 
+ 
+ 	<gap:splash src="media/splashscreen-800x480.png" gap:platform="android" gap:density="hdpi" gap:qualifier="land-hdpi" width="800" height="480" />
+
+	<gap:splash src="media/splashscreen-1280x720.png" gap:platform="android" gap:density="xhdpi" gap:qualifier="land-xhdpi" width="1280" height="720" />  
+
+	<gap:splash src="media/splashscreen-200x320.png" gap:platform="android" gap:density="ldpi" gap:qualifier="port-ldpi" width="200" height="320" />  
+ 
+ 	<gap:splash src="media/splashscreen-320x480.png" gap:platform="android" gap:density="mdpi" gap:qualifier="port-mdpi" width="320" height="480" /> 
+ 
+ 	<gap:splash src="media/splashscreen-480x800.png" gap:platform="android" gap:density="hdpi" gap:qualifier="port-hdpi" width="480" height="800" /> 
+ 
+ 	<gap:splash src="media/splashscreen-720x1280.png" gap:platform="android" gap:density="xhdpi" gap:qualifier="port-xhdpi" width="720" height="1280" />
+	
+	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+	
+	<access origin="*" />
+
+</widget>

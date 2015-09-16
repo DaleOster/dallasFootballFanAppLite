@@ -1,0 +1,111 @@
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+.header {
+	width: 100%;
+	height: 25%;
+	background-color: #C0C0C0
+}
+
+#bannerAd {
+	width: 100%;
+	height: 25%;
+	background-image: url("media/bannerAd.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 999;
+}
+
+#bodyBulk {
+	position: relative;
+	top: 25%;
+}
+
+#headerText {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18pt;
+	background-color: #060075;
+	color: #C0C0C0;
+	height: 65px;
+	margin-top: 0px;
+	line-height: 2.5;
+}
+
+#headerImage {
+	width: 100%;
+	height: 100%;
+}
+
+#buyFullAppLink, #newsButton, #scheduleButton, #pushNotificationsButton, #helpButton {
+	width: 100%;
+	height: 10%;
+	background-color: #C0C0C0;
+}
+
+.helpTitle {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 14pt;
+	text-decoration: underline;
+	color: #060075;
+}
+
+.helpDescription {
+	text-align: center;
+	color: #060075;
+}
+
+.week, .channel, .vs {
+	float: left;
+	width: 18%;
+	text-align: center;
+	line-height: 2;
+}
+
+.date, .time {
+	float: left;
+	width: 18%;
+	text-align: center;
+	position: relative;
+	top: 7px;
+}
+
+#week1, #week2, #week3, #week4, #week5, #week6, #week7, #week8, #week9, #week10, #week11, #week12, #week13, #week14, #week15, #week16, #week17 {
+	float: left;
+	width: 100%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	height: 65px;
+}
+
+#week1, #week3, #week5, #week8, #week9, #week12, #week15, #week17 {
+	background-color: #060075;
+	color: #C0C0C0;
+	font-weight: bold;
+}
+
+#week2, #week4, #week7, #week10, #week11, #week13, #week14, #week16 {
+	background-color: #C0C0C0;
+	color: #060075;
+	font-weight: bold;
+}
+
+#week17 {
+	height: auto;
+}
+
+@media only screen and (max-width: 547px) {
+	#nflNetwork {
+		line-height: 1;
+		position: relative;
+		top: 10px;
+	}
+}
