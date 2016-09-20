@@ -86,13 +86,13 @@ html, body {
 	height: 65px;
 }
 
-#week1, #week3, #week5, #week8, #week9, #week12, #week15, #week17 {
+#week1, #week3, #week5, #week8, #week11, #week12, #week15, #week16 {
 	background-color: #060075;
 	color: #C0C0C0;
 	font-weight: bold;
 }
 
-#week2, #week4, #week7, #week10, #week11, #week13, #week14, #week16 {
+#week2, #week4, #week6, #week9, #week10, #week13, #week14, #week17 {
 	background-color: #C0C0C0;
 	color: #060075;
 	font-weight: bold;
@@ -103,6 +103,8 @@ html, body {
 }
 
 @media only screen and (max-width: 547px) {
+/* Use the nflNetwork id in the channel class of the week a game airs on the NFL Network. This is because the length of "NFL Network" is longer than the other network names, thus
+cause problems for the CSS if not styled independently */
 	#nflNetwork {
 		line-height: 1;
 		position: relative;
