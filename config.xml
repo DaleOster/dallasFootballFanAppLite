@@ -37,7 +37,7 @@
  
  	<gap:splash src="media/splashscreen-720x1280.png" gap:platform="android" gap:density="xhdpi" gap:qualifier="port-xhdpi" width="720" height="1280" />
 	
-	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.6.0" />
 	
 	<access origin="*" />
 
